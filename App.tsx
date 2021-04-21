@@ -28,7 +28,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-//import {Constants} from 'react-native-unimodules';
+import * as VIcons from '@expo/vector-icons';
+
 import {Asset, FileSystem} from 'react-native-unimodules';
 
 const Section: React.FC<{
@@ -80,11 +81,35 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <View style={styles.container}>
+          <VIcons.Ionicons name="md-woman-sharp" size={32} color="green" />
+          <VIcons.MaterialIcons name="radio" size={32} color="green" />
+          <VIcons.AntDesign name="calculator" size={32} color="green" />
+          <VIcons.Entypo name="map" size={32} color="green" />
+          <VIcons.Feather name="cloud" size={32} color="green" />
+          <VIcons.Zocial name="android" size={32} color="green" />
+          <VIcons.SimpleLineIcons name="camera" size={32} color="green" />
+          <VIcons.Ionicons name="md-checkmark-circle" size={32} color="green" />
+        </View>
+        <View style={styles.container}>
+          <VIcons.Ionicons name="md-woman-sharp" size={32} color="blue" />
+          <VIcons.MaterialIcons name="radio" size={32} color="black" />
+          <VIcons.AntDesign name="calculator" size={32} color="red" />
+          <VIcons.Entypo name="map" size={32} color="white" />
+          <VIcons.Feather name="cloud" size={32} color="transparent" />
+          <VIcons.Zocial name="android" size={32} color="yellow" />
+          <VIcons.SimpleLineIcons name="camera" size={32} color="green" />
+          <VIcons.Ionicons
+            name="md-checkmark-circle"
+            size={32}
+            color="lightgreen"
+          />
+        </View>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="r03, L4L. Step One">
+          <Section title="r05, L4L. Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
@@ -120,6 +145,12 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
