@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -27,6 +28,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+//import {Constants} from 'react-native-unimodules';
+import {Asset, FileSystem} from 'react-native-unimodules';
+
 const Section: React.FC<{
   title: string;
 }> = ({children, title}) => {
@@ -55,12 +59,19 @@ const Section: React.FC<{
   );
 };
 
+const cc = console.log;
+
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : 'cyan',
   };
+
+  cc('r03, L4L');
+  let _docsDir = FileSystem.documentDirectory;
+  let _message = 'Docs dir: "' + _docsDir + '"';
+  cc(_message);
 
   return (
     <SafeAreaView style={backgroundStyle}>
@@ -73,12 +84,12 @@ const App = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="r01, L4L. Step One">
+          <Section title="r03, L4L. Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
-            <ReloadInstructions />
+            <Text>{_message}</Text>
           </Section>
           <Section title="Debug">
             <DebugInstructions />
