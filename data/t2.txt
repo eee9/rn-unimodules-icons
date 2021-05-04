@@ -1,0 +1,70 @@
+# L4P, v1
+
+'cause ['kɔ:z]
+'cos ['kɒs]
+'d [d]
+'em [əm]
+'ll [l]
+'m [m]
+'s [z]
+'t [t]
+'ve [v]
+al [°l]
+ed [d]
+er [ə]
+es [z]
+est [əst]
+ing [iŋ]
+ly [li]
+s [z]
+y [i]
+
+
+# am {əm} {æm}
+# and {ænd}
+# is {iz полная форма; z, s редуцированные формы}
+# of {ɒv полная форма; əv редуцированная форма}
+# OK, okay {əʋ'kei}
+# saint {seint;sənt, sint, snt}
+# sandwich {'sænᵈwiʤ; 'sænᵈwiʧ}
+# shall {ʃæl полная форма; ʃəl, ʃl редуцированные формы}
+# sheath {ʃi:θ; pl ʃi:ʤ}
+# sir {sз: полная форма; sə редуцированная форма}
+# than {ðæn; ðən, ðn, n}
+# the {ði: полная форма; ði редуцированная форма, употр. перед гласными, ðə редуцированная форма, употр. перед согласными}
+# the {ði}
+# them {ðem; ðəm, ðm}
+# upon {ə'pɒn;əpən}
+# us {ʌs;əs}
+# you {jʋ}
+
+A [ei]
+a [ə]
+a priori [.eiprai'ɔ:rai]
+a-going [ə'gəʋiŋ]
+a-ha [aha]
+aaaaaaaaah [aaa]
+abaciscus [.æbə'siskəs]
+aback [ə'bæk]
+abacterial [.æbæk'tiəriəl]
+abaculus [ə'bækjʋləs]
+abacus ['æbəkəs]
+abaft [ə'ba:ft]
+abandon [ə'bændən]
+abandoned [ə'bændənd]
+abandonee [ə.bændə'ni:]
+abandonment [ə'bændənmənt]
+abase [ə'beis]
+abasement [ə'beismənt]
+abash [ə'bæʃ]
+abashment [ə'bæʃmənt]
+abatable [ə'beitəb°l]
+abate [ə'beit]
+abatement [ə'beitmənt]
+abater [ə'beitəʳ]
+abatis ['æbətis]
+abattage [.æbə'tə:ʒ]
+abattoir ['æbə.twa:ʳ]
+abbacy ['æbəsi]
+abbess ['æbes]
+abbey ['æbi]
